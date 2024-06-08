@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      listStyleType: {
+        none: 'none',
+        circle: 'circle',
+      },
       colors: {
         'nutmeg': 'hsl(14, 45%, 36%)',
         'dark-raspberry': 'hsl(332, 51%, 32%)',
