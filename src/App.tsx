@@ -1,7 +1,9 @@
+import {Header} from './components/Header.tsx'
+
 function App() {
   return (
-    <div className="">
-
+    <div className="bg-white flexCenter flex-col">
+        <Header/>
     </div>
   )
 }
