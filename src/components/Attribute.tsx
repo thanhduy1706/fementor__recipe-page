@@ -1,6 +1,6 @@
 const Attribute = () => {
   return (
-    <div className="flex-col mt-5 font-semibold text-white flexCenter sm:flex-row">
+    <div className="flex-col mt-5 mb-10 font-600 sm:mb-0 text-dark-raspberry flexCenter sm:flex-row">
       Challenge by&nbsp;
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -10,7 +10,7 @@ const Attribute = () => {
       </a>
        Coded by
       <a
-        className="text-blue-500"
+        className="text-dark-charcoal"
         href="https://tduy1706.vercel.app/"
       >
         &nbsp;Nguyen Duy.

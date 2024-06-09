@@ -6,7 +6,6 @@
 
 
 :root {
-  font-family: 'Young Serif', serif, 'Outfit', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,10 +22,14 @@
   @apply flex items-center justify-center;
 }
 
-.tableFormat{
+li {
+  @apply pl-4 marker:text-dark-raspberry;
+}
+
+/* .tableFormat{
   @apply px-32 py-4;
 }
 
 .bottomBorder{
   @apply border-b-[1px] border-light-grey;
-}
+} */
